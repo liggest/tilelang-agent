@@ -28,11 +28,24 @@
  
 ### 基础 SKILL 配置
 
-| 名称 | 类型 | 功能 | 地址 |
+| 名称 | 功能 | 地址 | 用处 |
 |---|---|---|---|
-|  |  |  |  |
+| skill-creator | 创建 SKILL | https://github.com/anthropics/skills/tree/main/skills/skill-creator | 可以把常用的、总结好的提示词转换成 SKILL |
+| requesting-code-review | 创建代码 review | https://github.com/obra/superpowers | 提交代码前，建议先用代码审查一编 |
+| tilelang-install-skill | 拉取 tielang 代码仓并编译 | .agents/skills/tilelang-install-skill | 可在算力平台环境上一键安装 tilelang |
+
+更多 SKILL 能力可以参考 https://skills.sh/
+
+### 调测 SKILL 配置
+
+| 名称 | 功能 | 地址 | 用处 |
+|---|---|---|---|
+| tilelang-debug-helper | 调试 SKILL | .agens/skills/tilelang-debug-helper | 对给出Example代码进行调试 |
+| 欢迎大家持续补充。。 |  |  |  |
 
 
 ## 测试
+
+鉴于 AI 的不确定性，后续需要补充单元测试 SKILL ，通过单元测试来约束 AI, 避免引入新的错误，或者不确定性的错误
 
 
