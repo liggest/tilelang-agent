@@ -27,8 +27,9 @@ opencode 基础能力，可以参考 https://opencode.ai/docs/zh-cn
 
 ### 挂载 tilelang-agent
 
-后续开发中用到的 SKILL 建议都归档到 tilelang-agent 中，在开发前直接挂载一下即可运用 tilelang-agent 进行开发。
-详细指导和提示词可以参考[此文档](guide/tile_agent_ln.md)。
+| 名称 | 类型 | 功能 | 地址 |
+|---|---|---|---|
+| 挂载 tilelang-agent | 提示词 | 后续开发中用到的 SKILL 建议都归档到 tilelang-agent 中，在开发前直接挂载一下即可运用 tilelang-agent 进行开发。| [操作指导](guide/tile_agent_ln.md) |
 
 ### 基础 SKILL 配置
 
