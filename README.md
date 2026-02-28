@@ -14,16 +14,14 @@
 | opencode 安装 | shell 命令 | 安装 openCode | `npm install -g opencode-ai` |
 | API KEY 配置 | shell 脚本 | opencode 火山 GLM API KEY 配置 | scripts/opencode_apikey_config.sh |
 
-### opencode 配置
+如果需要更详细步骤，可查看 guide/opencode_installation_guide.md
+opencode 基础能力，可以参考 https://opencode.ai/docs/zh-cn
+
+### 其他配置
 
 | 名称 | 类型 | 功能 | 地址 |
 |---|---|---|---|
-| node.js 配置安装 | shell 脚本 | 在算力平台机器上一键安装 node.js | install_node_js.sh |
-| opencode 安装 | shell 命令 | 安装 openCode | npm install -g opencode-ai |
-| API KEY 配置 | shell 脚本 | opencode 火山 GLM API KEY 配置 | opencode_apikey_config.sh |
-
-如果需要更详细步骤，可查看 guide/opencode_installation_guide.md
-opencode 基础能力，可以参考 https://opencode.ai/docs/zh-cn
+| 算力平台 home 目录持久化 | shell 脚本 | 在算力平台机器上持久化 home 目录 | [操作指导](guide/home_path_persistence.md) |
 
 ## 开发
  
@@ -47,4 +45,4 @@ opencode 基础能力，可以参考 https://opencode.ai/docs/zh-cn
 
 ## 测试
 
-鉴于 AI 的不确定性，后续需要补充单元测试 SKILL ，通过单元测试来约束 AI, 避免引入新的错误，或者不确定性的错误
+鉴于 AI 的不确定性，后续可尝试补充单元测试UT SKILL ，通过单元测试来约束 AI, 避免引入新的错误，或者不确定性的错误。提高代码生成的准确率。
