@@ -1,0 +1,23 @@
+{
+  "skill_name": "setup-tilelang-agent",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to install tilelang-agent into my tilelang-ascend project. The TL_ROOT environment variable is set to /home/user/tilelang-ascend. Please set up the symbolic links for .agents and AGENTS.md.",
+      "expected_output": "The skill should detect TL_ROOT, display installation summary, ask for confirmation, create symbolic links for .agents and AGENTS.md, update .gitignore, and verify the installation.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need to set up tilelang-agent's custom skills in my tilelang-ascend project at /workspace/my-project. Please install the agent there.",
+      "expected_output": "The skill should use the user-provided directory, display installation summary, ask for confirmation, create symbolic links, update .gitignore, and verify the installation.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I already ran the setup-tilelang-agent skill before, but I want to run it again to make sure everything is configured correctly. TL_ROOT is set to /home/user/tilelang-ascend.",
+      "expected_output": "The skill should detect existing symbolic links, skip creating them if they're correct, update .gitignore if needed, and verify the installation. It should be idempotent.",
+      "files": []
+    }
+  ]
+}
