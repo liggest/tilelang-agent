@@ -11,18 +11,17 @@
 | 名称 | 类型 | 功能 | 地址 |
 |---|---|---|---|
 | node.js 配置安装 | shell 脚本 | 在算力平台机器上一键安装 node.js | scripts/install_node_js.sh |
-| node.js 配置安装（）| shell 脚本 | 一键安装 node.js | `curl -fsSL https://download.aicodemirror.com/env_deploy/env-install.sh | bash` |
 | opencode 安装 | shell 命令 | 安装 openCode | `npm install -g opencode-ai` |
 | API KEY 配置 | shell 脚本 | opencode 火山 GLM API KEY 配置 | scripts/opencode_apikey_config.sh |
 
 如果需要更详细步骤，可查看 guide/opencode_installation_guide.md
 opencode 基础能力，可以参考 https://opencode.ai/docs/zh-cn
 
-其他脚本
+#### 其他脚本
 
 | 名称 | 类型 | 功能 | 地址 |
 |---|---|---|---|
-| node.js 配置安装（）| shell 脚本 | 一键安装 node.js | `curl -fsSL https://download.aicodemirror.com/env_deploy/env-install.sh | bash` |
+| node.js 配置安装（aicodemirror 体提供）| shell 脚本 | 一键安装 node.js | `curl -fsSL https://download.aicodemirror.com/env_deploy/env-install.sh | bash` |
 
 
 ### 其他配置
